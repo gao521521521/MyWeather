@@ -11,7 +11,6 @@ import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
 import android.text.TextUtils;
 import android.util.Log;
-import android.widget.Toast;
 
 import com.myweather.app.db.MyWeatherDB;
 import com.myweather.app.model.City;
@@ -108,8 +107,7 @@ public class Utility {
 			String temp1 = weatherInfo.getString("temp1");
 			String temp2 = weatherInfo.getString("temp2");
 			String weatherDesp = weatherInfo.getString("weather");
-			String publishTime = "11:00";
-//					weatherInfo.getString("ptime");
+			String publishTime = weatherInfo.getString("ptime");
 			saveWeatherInfo(context, cityName, weatherCode, temp1, temp2,
 					weatherDesp, publishTime);
 		} catch (Exception e) {

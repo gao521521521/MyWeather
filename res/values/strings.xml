@@ -1,5 +1,8 @@
 <resources>
 
-    <string name="app_name">MyWeather</string>
+    <string name="app_name">BW</string>
+    <string name="sinble">~</string>
+    <string name="refresh">刷新</string>
+    <string name="main">首页</string>
 
 </resources>
