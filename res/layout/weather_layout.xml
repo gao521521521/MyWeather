@@ -9,6 +9,14 @@
         android:layout_height="50dp"
         android:background="#484E61" >
 
+        <Button
+            android:id="@+id/switch_city"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:text="首页" />
+
         <TextView
             android:id="@+id/city_name"
             android:layout_width="wrap_content"
@@ -17,6 +25,15 @@
             android:layout_centerVertical="true"
             android:textColor="#fff"
             android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/refresh_weather"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:text="刷新" />
     </RelativeLayout>
 
     <RelativeLayout
@@ -29,7 +46,9 @@
             android:id="@+id/publish_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
+            android:layout_marginEnd="10dp"
             android:layout_marginRight="10dp"
             android:layout_marginTop="10dp"
             android:textColor="#fff"
